@@ -1,0 +1,18 @@
+.landing-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+
+  &-title {
+    font-size: 32px;
+  }
+
+  &-crown {
+    background-image: url('./crown.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+  }
+}

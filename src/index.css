@@ -1,10 +1,8 @@
 @font-face {
-    font-family: Kurale;
-    src: url("./Kurale-Regular.ttf");
-}
+  font-family: Kurale;
+  src: url("./assets/Kurale-Regular.ttf"); }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: Kurale;
-}
+  font-family: Kurale; }
