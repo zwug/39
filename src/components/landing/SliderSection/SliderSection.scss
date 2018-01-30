@@ -1,0 +1,12 @@
+@import 'common.scss';
+
+.landing-slider-section {
+  background-color: $brown;
+  box-sizing: border-box;
+  height: 100%;
+  padding-top: $landing-header-height;
+
+  &-container {
+    display: flex;
+  }
+}

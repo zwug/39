@@ -1,18 +1,32 @@
+@import "common.scss";
+
 .landing-header {
   align-items: center;
+  background-color: $black;
+  box-sizing: border-box;
   display: flex;
+  height: $landing-header-height;
   justify-content: space-between;
   padding: 10px 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 
   &-title {
     font-size: 32px;
   }
 
+  &-phone-number {
+    color: $white;
+  }
+
   &-crown {
-    background-image: url('./crown.png');
+    $size: 50px;
+    background-image: url('./crown_small.png');
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100px;
-    width: 100px;
+    height: $size;
+    width: $size;
   }
 }
