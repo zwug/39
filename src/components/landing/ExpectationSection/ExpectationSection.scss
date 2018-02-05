@@ -1,0 +1,16 @@
+@import 'common.scss';
+
+.landing-expectation {
+  background-color: $brown;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-top: $landing-header-height;
+
+  &-photos {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+}

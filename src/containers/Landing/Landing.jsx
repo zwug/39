@@ -3,6 +3,8 @@ import { FullPage, Slide } from 'react-full-page';
 
 import Header from '../../components/landing/Header/Header';
 import SliderSection from '../../components/landing/SliderSection/SliderSection';
+import ExpectationSection from
+  '../../components/landing/ExpectationSection/ExpectationSection';
 
 import './Landing.css';
 
@@ -13,10 +15,10 @@ class Landing extends Component {
         <Header />
         <FullPage>
           <Slide>
-            <SliderSection/>
+            <SliderSection />
           </Slide>
           <Slide>
-            <SliderSection/>
+            <ExpectationSection />
           </Slide>
         </FullPage>
       </div>
